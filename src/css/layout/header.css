@@ -1,12 +1,12 @@
 .bouton-billetterie {
-    padding: 2px 6px;
+    padding: 1px 10px;
     border: 1px solid #000000;
     text-decoration: none;
     color: #000000;
     background-color: #F1CD12;
     border-radius: 15px;
     height: auto;
-    margin: 0 5px;
+    margin: auto;
     font-size: 10px;
     display: flex;
     justify-content: center;
@@ -26,5 +26,9 @@
     width: 100%;
     height: auto;
     margin : auto;
+    margin-right: 0px;
 }
-    
+.menu-Hamburger {
+    display: flex;
+    margin: auto;
+ }
