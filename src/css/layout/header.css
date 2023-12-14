@@ -1,6 +1,9 @@
-bouton-billetterie {
-    padding: var(--space1x) var(--space2x);
-    border: 1px solid var(--noir);
+.bouton-billetterie {
+    padding: 5px 20px;
+    border: 1px solid #000000;
     text-decoration: none;
-    color: var(--noir);
+    color: #000000;
+    background-color: #F1CD12;
+    border-radius: 15px;
+    justify-content: space-between;
 }
