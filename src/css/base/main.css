@@ -81,5 +81,16 @@
 .img-rossi {
     width: 75px;
     height: 75px;
-    margin : 15px 140px ;
+    margin : 20px 140px ;
+    margin-top: 40px;
+}
+.text-1-aldo-rossi {
+    padding: 15px 0px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.text-2-aldo-rossi {
+    font-family: 'Mulish', sans-serif;
+    font-size: 11px;
 }
