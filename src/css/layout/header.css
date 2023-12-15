@@ -14,10 +14,12 @@
     margin-right: 0;
 }
 .logo-header {
+    max-width: 35%;
     width: 100%;
     height: auto;
     margin : auto;
     margin-right: 0px;
+    
 }
 .menu-Hamburger {
     margin-left: 40px;
