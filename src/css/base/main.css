@@ -205,3 +205,19 @@
     font-family: 'Mulish', sans-serif;
     font-size: 11px;
 }
+.image-rossi-infos {
+    width: 175px;
+    height: 175px;
+    margin: 0px 60px;
+    margin-top: 15px;
+}
+.text-img-rossi {
+    font-family: 'Mulish', sans-serif;
+    font-size: 11px;
+    margin: 0px 51px;
+}
+.text-date {
+    font-family: 'Mulish', sans-serif;
+    font-size: 11px;
+    margin: 0px 80px;
+}
