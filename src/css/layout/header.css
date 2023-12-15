@@ -13,15 +13,6 @@
     font-style: Arial;
     margin-right: 0;
 }
-.header {
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    height: 59px;
-    width: auto;
-    background-color: #000000;
-    margin: -8.4px;
-}
 .logo-header {
     width: 100%;
     height: auto;
@@ -32,7 +23,7 @@
     margin-left: 40px;
     margin-right: 10px;
 }
-.header-menu {
+.header {
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -40,7 +31,7 @@
     width: auto;
     background-color: #252525;
     box-sizing: border-box;
-    margin: -8.4px;
+    margin: -8.6px;
 }
 .menu-close {
     margin-left: 40px;
