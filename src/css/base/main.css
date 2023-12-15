@@ -168,3 +168,40 @@
     margin: -9px;
     margin-bottom: -20px;
 }
+.logo-informations {
+    margin : 0px 115px ;
+    display: flex;
+    width: 80px;
+    height: 80px;;
+}
+.section-informations {
+    margin: 35px;
+}
+.titre-informations {
+    font-family: 'Rock Salt', sans-serif;
+    font-size: 27px;
+    margin: 0px 50px;
+}
+.titre-2-informations {
+    font-family: 'Rock Salt', sans-serif;
+    font-size: 27px;
+    margin: 0px 17px;
+}
+.img-fc-infos {
+    width: 300px;
+    height: 231px;
+    margin-top: 15px;
+}
+.text-1-informations{
+    font-family: 'Mulish', sans-serif;
+    font-size: 8px;
+    margin: 0px 80px;
+}
+.text-adress-infos {
+    font-family: 'Mulish', sans-serif;
+    font-size: 11px; 
+}
+.adresse-2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 11px;
+}
