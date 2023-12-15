@@ -126,4 +126,45 @@
 }
 .section-formulaire {
     background-color: #982222;
+    width: cover;
+}
+.formulaire {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Ajouter vos propres styles */
+.formulaire {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+}
+.btn-formulaire {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 4px 8px;
+    display: flex;
+    margin: 15px 148px;
+}
+.nom-formulaire {
+    font-family: 'Inter', normal;
+    font-size: 14px;
+    padding: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center; /* pour aligner verticalement différents de justify-content qui aligne horizontalement */
+}
+.section-formulaire {
+    margin: -9px;
+    margin-bottom: -20px;
 }
