@@ -1,0 +1,32 @@
+.section-onglets {
+    margin-bottom: 250px;
+}
+#onglets ul {
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    
+  }
+#onglets ul li {
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding: 1rem;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: #000000;
+  }
+#onglets ul li.actif {
+    color: rgb(255, 255, 255);
+    background-color: #982222;
+  }
+#onglets div {
+    padding: 1rem;
+  }
+#onglets div div {
+    display: none;
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+  }
+#onglets div div.actif {
+    display: block;
+  }
