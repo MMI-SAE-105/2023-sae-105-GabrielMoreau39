@@ -226,3 +226,22 @@
     font-family: 'Mulish', sans-serif;
     font-size: 11px;
 }
+.text-1-oeuvres {
+    font-family: 'Rock Salt', sans-serif;
+    font-size: 27px;
+    margin: 0px 50px;
+}
+.text-2-oeuvres{
+    font-family: 'Rock Salt', sans-serif;
+    font-size: 27px;
+    margin: 0px 25px;
+}
+.text-3-oeuvres {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+.text-frise {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
