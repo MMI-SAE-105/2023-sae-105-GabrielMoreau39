@@ -20,7 +20,7 @@
     height: 59px;
     width: auto;
     background-color: #000000;
-    margin: -8px;
+    margin: -8.4px;
 }
 .logo-header {
     width: 100%;
@@ -40,9 +40,10 @@
     width: auto;
     background-color: #252525;
     box-sizing: border-box;
-    margin: -8px;
+    margin: -8.4px;
 }
 .menu-close {
     margin-left: 40px;
     margin-right: 10px;
+    margin-right: 0;
 }
