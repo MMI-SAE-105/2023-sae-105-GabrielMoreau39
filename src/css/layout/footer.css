@@ -9,6 +9,8 @@
     margin : 0px 150px ;
     display: flex;
     margin-right: 0px;
+    width: 40px;
+    height: 40px;
 }
 .text-footer {
     color: #ffffff;
@@ -32,6 +34,8 @@
     margin : 0px 150px ;
     display: flex;
     margin-right: 0px;
+    width: 40px;
+    height: 40px;
 }
 .text-3-footer {
     color: #7B7B7B;

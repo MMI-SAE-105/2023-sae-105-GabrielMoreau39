@@ -34,6 +34,87 @@
     </section>
     <section>
         <p class="text-frise">Frise chronologique</p>
+        <div class="carrousel" x-data="{
+            hrefCourant: '#ecran-1',
+            }">
+            <h1>Aldo Rossi</h1>
+            <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"
+            @click="$refs.parent.scrollBy(-$refs.parent.clientWidth, 0)">
+                &lt;
+            </button>
+            <button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant"
+            @click="$refs.parent.scrollBy($refs.parent.clientWidth, 0)">
+                >
+            </button>
+        <div class="carrousel_parent-ecrans" x-ref="parent"
+        @scroll.debounce.250ms.passive="
+        hrefCourant = '#'+
+                          [...$refs.parent.children]
+                           .find(e=>e.getBoundingClientRect().x>=0)
+                           .id
+                                             "
+            >
+            
+            <div id="ecran-1" class="carrousel_ecran">
+                <figure>
+                    <img src="/public/img/1.webp" alt="image ecran 1">
+                    <figcaption>Le Théâtre Carlo Felice (Gênes, Italie) 1991 D. Luffy</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-2" class="carrousel_ecran">
+                <figure>
+                    <img src="/public/img/2.webp" alt="image ecran 2">
+                    <figcaption>La Tour San Cataldo (Milan, Italie) 1977   </figcaption>
+                </figure>
+            </div>
+            <div id="ecran-3" class="carrousel_ecran">
+                <figure>
+                    <img src="/public/img/3.webp" alt="image ecran 3">
+                    <figcaption>Le Cimetière de San Cataldo (Modène, Italie) 1984 </figcaption>
+                </figure>
+            </div>
+            <div id="ecran-4" class="carrousel_ecran">
+                <figure>
+                    <img src="/public/img/4.webp" alt="image ecran 4">
+                    <figcaption>La Scholastic Building (New York, États-Unis) 1954</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-5" class="carrousel_ecran">
+                <figure>
+                    <img src="/public/img/5.webp" alt="image ecran 5">
+                    <figcaption>Le Théâtre Maffeiano (Vérone, Italie) 1985</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-5" class="carrousel_ecran">
+                <figure>
+                    <img src="/public/img/6.webp" alt="image ecran 5">
+                    <figcaption>La Faculté d'Architecture de Bari (Bari, Italie) 1972</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-5" class="carrousel_ecran">
+                <figure>
+                    <img src="/public/img/7.webp" alt="image ecran 5">
+                    <figcaption>La Galerie de l'Académie Carrara (Bergame, Italie) 1988</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-5" class="carrousel_ecran">
+                <figure>
+                    <img src="/public/img/8.webp" alt="image ecran 5">
+                    <figcaption>La Teatro del Mondo (Venise, Italie) 1980</figcaption>
+                </figure>
+            </div>
+        </div>
+        <ul class="caroussel_liste-liens">
+            <li><a href="#ecran-1" class="caroussel_lien" :class="{actif:hrefCourant==='#ecran-1'}"></a></li>
+            <li><a href="#ecran-2" class="caroussel_lien" :class="{actif:hrefCourant==='#ecran-2'}"></a></li>
+            <li><a href="#ecran-3" class="caroussel_lien" :class="{actif:hrefCourant==='#ecran-3'}"></a></li>
+            <li><a href="#ecran-4" class="caroussel_lien" :class="{actif:hrefCourant==='#ecran-4'}"></a></li>
+            <li><a href="#ecran-5" class="caroussel_lien" :class="{actif:hrefCourant==='#ecran-5'}"></a></li>
+            <li><a href="#ecran-5" class="caroussel_lien" :class="{actif:hrefCourant==='#ecran-5'}"></a></li>
+            <li><a href="#ecran-5" class="caroussel_lien" :class="{actif:hrefCourant==='#ecran-5'}"></a></li>
+            <li><a href="#ecran-5" class="caroussel_lien" :class="{actif:hrefCourant==='#ecran-5'}"></a></li>
+        </ul>
+        </div>
     </section>
     <section>
       <footer class="footer">

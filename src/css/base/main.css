@@ -10,6 +10,8 @@
     margin : 0px 145px ;
     display: flex;
     margin-right: 0px; 
+    width: 80px;
+    height: 80px;
 }
 .text-1-menu {
     font-family: 'Rock Salt', sans-serif;
