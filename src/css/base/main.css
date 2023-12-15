@@ -94,3 +94,16 @@
     font-family: 'Mulish', sans-serif;
     font-size: 11px;
 }
+.text-1-contact {
+    font-family: 'Inter', normal;
+    font-size: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+.text-2-contact {
+    font-family: 'Inter', normal;
+    font-size: 10px;
+    padding-left: 50px;
+    color: #7B7B7B;
+}
