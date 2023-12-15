@@ -1,12 +1,15 @@
 img {
-    max-width: 110%;
+    max-width: 105%;
   }
+.logo-header {
+    max-width: 35%;
+}
 .img-fc {
 
-    margin-right: 0px;
+    margin-right: px;
     margin-left: -7.7px;
     margin-top: -10px;
     margin-bottom: 0px;
-    width: 375;
-    height: 250;
+    width: 375px;
+    height: 250px;
 }

@@ -11,3 +11,12 @@
     height: 86px;
     width: 374px;
 }
+.logo {
+    margin : 0px 140px ;
+    display: flex;
+    margin-right: 0px; 
+}
+.h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 24px;
+}
