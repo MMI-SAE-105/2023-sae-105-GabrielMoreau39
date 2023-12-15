@@ -35,11 +35,12 @@
 .header-menu {
     display: flex;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 20px;
     height: 59px;
     width: auto;
     background-color: #252525;
     box-sizing: border-box;
+    margin: -8px;
 }
 .menu-close {
     margin-left: 40px;
