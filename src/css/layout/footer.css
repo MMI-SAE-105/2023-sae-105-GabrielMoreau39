@@ -4,7 +4,7 @@
     background-color: #252525;
     margin: -8.4px;
     margin-top: 702.6px ;
-    height: 363px;
+    height: 400px;
 }
 .logo-footer {
     margin : 0px 150px ;
@@ -18,9 +18,9 @@
     font-size: 14px;
 }
 .text-2-footer {
-    color: #ffffff;
+    color: #7B7B7B;
     font-family: 'Inter', sans-serif;
-    font-style: Bold;
+    font-style: bold;
     font-size: 12px;
 }
 .logo-facebook {
@@ -28,4 +28,14 @@
 }
 .logo-instagram {
     padding-right: 10px;
+}
+.logo-fc {
+    margin : 0px 150px ;
+    display: flex;
+    margin-right: 0px;
+}
+.text-3-footer {
+    color: #7B7B7B;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
 }
