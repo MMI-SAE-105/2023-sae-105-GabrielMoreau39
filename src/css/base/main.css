@@ -107,3 +107,23 @@
     padding-left: 50px;
     color: #7B7B7B;
 }
+.adresse {
+    font-family: 'Inter', normal;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.phone {
+    font-family: 'Inter', normal;
+    font-size: 16px;
+}
+.section-formulaire {
+    background-color: #982222;
+}
