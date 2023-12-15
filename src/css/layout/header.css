@@ -20,6 +20,7 @@
     height: 59px;
     width: auto;
     background-color: #000000;
+    box-sizing: border-box;
 }
 .logo-header {
     width: 100%;
@@ -38,4 +39,5 @@
     height: 59px;
     width: auto;
     background-color: #252525;
+    box-sizing: border-box;
 }
