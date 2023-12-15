@@ -41,3 +41,7 @@
     background-color: #252525;
     box-sizing: border-box;
 }
+.menu-close {
+    margin-left: 40px;
+    margin-right: 10px;
+}
